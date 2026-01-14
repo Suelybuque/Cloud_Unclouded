@@ -2,23 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
+    <link>https://example.org/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- 0.154.4</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 14 Jan 2026 10:24:31 +0200</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>What Cloud Really Is</title>
-      <link>http://localhost:1313/blog/what-cloud-really-is/</link>
-      <pubDate>Wed, 14 Jan 2026 10:24:31 +0200</pubDate>
-      <guid>http://localhost:1313/blog/what-cloud-really-is/</guid>
-      <description>&lt;hr&gt;
-&lt;h2 id=&#34;tags-cloud-gcp&#34;&gt;title: &amp;ldquo;What Cloud Really Is&amp;rdquo;
-date: 2026-01-14
-draft: true
-tags: [&amp;ldquo;Cloud&amp;rdquo;, &amp;ldquo;GCP&amp;rdquo;]&lt;/h2&gt;
-&lt;p&gt;This article is part of my journey into understanding cloud computing without fear.&lt;/p&gt;</description>
-    </item>
+    <atom:link href="https://example.org/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
