@@ -1,0 +1,55 @@
+baseURL: https://cloudunclouded.com/
+languageCode: en-us
+title: Cloud Unclouded
+theme: hugo-theme-stack
+
+# Fixed language mapping 
+defaultContentLanguage: en
+languages:
+    en:
+        languageName: English
+        contentDir: content
+        weight: 1
+        title: Cloud Unclouded
+
+params:
+    mainSections:
+        - post
+    featuredImageField: image
+    
+    sidebar:
+        emoji: 🍥
+        subtitle: Demystifying Cloud Data & Infrastructure
+        avatar:
+            enabled: false
+
+    article:
+        toc: true
+        readingTime: true
+
+    widgets:
+        homepage:
+            - type: search
+           
+
+menu:
+    main:
+        - identifier: home
+          name: Home
+          url: /
+          weight: 1
+          params:
+            icon: home
+        - identifier: about
+          name: About
+          url: /about/
+          weight: 2
+          params:
+            icon: user
+        - identifier: projects
+          name: Projects
+          url: /projects/
+          weight: 3
+          params:
+            icon: 
+        
