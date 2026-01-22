@@ -13,6 +13,9 @@ languages:
         title: Cloud Unclouded
 
 params:
+    colorScheme:
+        default: dark
+        
     mainSections:
         - post
     featuredImageField: image
