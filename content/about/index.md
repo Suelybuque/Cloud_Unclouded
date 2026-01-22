@@ -3,6 +3,9 @@ title: "About Me"
 description: "Data Engineer, Cloud enthusiast, and writer dedicated to making tech accessible."
 layout: page
 image: avatar1.jpg 
+
+params: 
+    ReadingTime: false
 ---
 
 # Hi, I'm Suely 👋
