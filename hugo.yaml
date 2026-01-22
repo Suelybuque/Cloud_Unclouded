@@ -15,7 +15,7 @@ languages:
 params:
     colorScheme:
         default: dark
-        
+
     mainSections:
         - post
     featuredImageField: image
@@ -28,7 +28,7 @@ params:
 
     article:
         toc: true
-        readingTime: true
+        readingTime: false
 
     widgets:
         homepage:

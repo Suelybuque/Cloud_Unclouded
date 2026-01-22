@@ -1,4 +1,14 @@
 
+.main-container > * {
+  margin-top: 1.6rem;
+  margin-bottom: 1.6rem;
+}
+
+.nav-link:hover,
+.nav-link.active {
+  color: var(--accent-color);
+  font-weight: 600;
+}
 
 /* =====  article typography for Stack ===== */
 
@@ -110,4 +120,5 @@
     to { opacity: 1; }
   }
 }
+
 
