@@ -53,3 +53,7 @@ menu:
           params:
             icon: archive
         
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
