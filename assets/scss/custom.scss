@@ -69,3 +69,20 @@
     left: 20px !important;
     right: auto !important;
 }
+
+/* Hide site identity on mobile by default */
+@media (max-width: 768px) {
+  .site-avatar,
+  .site-name,
+  .site-description {
+    display: none;
+  }
+
+  /* Show site identity when menu is open */
+  body.menu-open .site-avatar,
+  body.menu-open .site-name,
+  body.menu-open .site-description {
+    display: block;
+  }
+}
+
