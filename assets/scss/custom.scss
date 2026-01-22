@@ -69,8 +69,7 @@
     left: 20px !important;
     right: auto !important;
 }
-
-/* Hide site identity on mobile by default */
+/* Mobile: hide site identity by default */
 @media (max-width: 768px) {
   .site-avatar,
   .site-name,
@@ -78,11 +77,36 @@
     display: none;
   }
 
-  /* Show site identity when menu is open */
-  body.menu-open .site-avatar,
-  body.menu-open .site-name,
-  body.menu-open .site-description {
+  /* Show site identity ONLY when menu is open */
+  body.show-menu .site-avatar,
+  body.show-menu .site-name,
+  body.show-menu .site-description {
     display: block;
   }
 }
 
+@media (max-width: 768px) {
+
+  body:not(.show-menu) .main.container{
+    padding-top: 1rem;
+  }  
+
+  body.show-menu .main-container{
+    padding-top:0;
+  }
+
+  body.show-menu .site-header {
+    text-align: center;
+  }
+
+  body.show-menu .site-avatar,
+  body.show-menu .site-name,
+  body.show-menu .site-description {
+    animation: fadeIn 0.2s ease-in;
+  }
+
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+}
